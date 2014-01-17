@@ -1,0 +1,20 @@
+//@import "sass-bootstrap";
+//
+//body { @extend .container; }
+//
+//body > header { @extend .page-header;
+//  p { @extend .lead; }
+//}
+//
+//body > main { @extend .row;
+//  nav { @extend .col-lg-3;
+//    ul { @extend .list-group;
+//      li { @extend .list-group-item; }
+//    }
+//  }
+//  article { @extend .col-lg-9; }
+//}
+
+body {
+    padding: 1em;
+}
