@@ -49,7 +49,7 @@
 (defpage "/:url" {url :url}
   (def results (seq (mc/find-maps "test" {:url url})))
   (common/layout
-    [:h3 url]
+    [:a {:href url} [:h3 url]]
     [:div {:class "list-group"}
       (map parseUrl results)]
     [:form {:method "post" :role "form"}
