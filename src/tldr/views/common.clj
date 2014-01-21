@@ -16,4 +16,7 @@
       (include-bootstrap "css/bootstrap-theme.min.css")
       (include-bootstrap "js/bootstrap.min.js")]
     [:body
-      [:div#wrapper content]]))
+      [:div#wrapper content]
+      [:footer
+       [:p "Tip me doge coin ;)"]
+       [:i "DReSBE4eXbZzFWcEx4LbbWpuRMxyPPwVSK"]]]))
